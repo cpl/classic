@@ -1,3 +1,6 @@
 [submodule "kernel"]
 	path = kernel
 	url = git@github.com:thee-engineer/classic.kernel.git
+[submodule "os"]
+	path = os
+	url = git@github.com:thee-engineer/kernel.os.git
