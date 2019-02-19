@@ -3,7 +3,7 @@ import sys
 
 
 LICENSE_HEADER = """/*
-   Copyright 2018 Alexandru-Paul Copil
+   Copyright 2018-2019 Alexandru-Paul Copil
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -34,7 +34,7 @@ for path, dirs, files in os.walk(sys.argv[1]):
             with open(full_path, "r") as fp:
                 lines = fp.readlines()
                 for line in lines:
-                    if "Copyright 2018 Alexandru-Paul Copil" in line:
+                    if "Copyright 2018-2019 Alexandru-Paul Copil" in line:
                         has_copyright = True
 
             if not has_copyright:
