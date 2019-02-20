@@ -1,11 +1,6 @@
 # ![Classic Logo](img/classic_logo_effect.png)
+![Classic Running Logo](img/logo_photo.jpg)
 
-**`Classic`** is a bare-metal **Operating System** developed in [ARM](https://www.arm.com) Assembly for the [Raspberry Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero/). The motivation behind **Classic** is to prove simplicity, readability and quality can be achieved when developing an OS.
+**`Classic`** is a bare-metal **Operating System** developed using [ARM](https://www.arm.com) Assembly and C, for the [Raspberry Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero/). The motivation behind **Classic** is to prove simplicity, readability and quality can be achieved when developing an OS.
 
-## Structure
-
-The project is split into multiple modules:
-
-* Kernel
-* OS
-* Tools
+The main part of the operating system is the [Kernel](https://github.com/thee-engineer/classic.kernel)
